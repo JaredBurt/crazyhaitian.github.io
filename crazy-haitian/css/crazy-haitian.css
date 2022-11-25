@@ -1,0 +1,88 @@
+/*style sheet for crazy-haitian.html*/
+
+body{
+	background-image: url('https://images.unsplash.com/photo-1542181961-9590d0c79dab?ixlib=rb-1.2.1&dl=rr-abrot-pNIgH0y3upM-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align:right;
+	padding-right: 200px;
+	padding-top: 150px;
+	}
+	
+h1{
+	color:#FFA500;
+	font-family:Tahoma;
+	font-size:80px;
+	line-height:25px;
+	text-decoration:underline;
+	text-decoration-color:#FFA500;
+}
+
+h2{
+	color:#FFD700;
+	font-family:Courier New;
+	line-height:0px;
+	font-size:50px;
+	padding-right:50px;
+	padding-bottom:30px;
+}
+
+
+h2:hover span{
+	display:none;
+}
+
+h2:hover:before{
+	content:"Relax for awhile";
+	font-size:40px;
+}	
+
+banner{
+}
+
+nav ul li{
+	color:orange;
+	font-family:Ariel;
+	font-size:25px;
+	display:inline-block;
+	border:2px solid #ff8c00;
+	border-radius:5px;
+	padding:5px;
+	list-style-type:none;
+	float:right;
+	margin:15px;
+	
+}
+
+nav ul li a{
+	color:orange;
+}
+
+nav ul li a:hover{
+	color:red;
+}
+
+nav ul li a:visited{
+}
+
+
+main{
+	padding:40px;
+}
+
+#welcome{
+	color:#ffff00;
+	font-family:Ariel;
+	font-size:30px;
+	padding-top:75px;
+	text-shadow:1px 1px #ff0000;
+}
+.rotate {
+	font-size:30px;
+	padding-right:540px;
+	position:relative;
+	display: inline-block;
+	bottom:80px;
+	transform:rotate(-30deg);
+}
