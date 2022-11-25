@@ -1,0 +1,70 @@
+/*style sheet for reviews page*/
+
+Body{
+	background-image: url('https://images.unsplash.com/photo-1518831449057-63cc79a76488?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	color:#ffa500;
+	font-family:tahoma;
+	font-size:80px;
+	text-decoration:underline;
+	Text-decoration-color:#ffa500;
+	text-align:center;
+	}
+
+h2{
+	color:#FFD700;
+	font-family:Courier New;
+	line-height:0px;
+	font-size:40px;
+	text-align:center;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3{
+	text-shadow:1px 1px #FFD700;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.paragraph{
+	text-align:center;
+	color:#FFD700;
+	font-family:Ariel;
+	font-size:20px;
+	font-weight:600;
+	display:inline-block;
+	padding-top:30px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.containter{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:100px;
+	height:300px;
+	width:500px;
+}
+
+.contheader{
+	text-align:center;
+	height:200px;
+	width:100;
+	font-size:20px;
+	color:#FFD700
+}
+
+
+form{
+	display:inline-block;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset]:hover {
+  background-color: #45a049;
+}
