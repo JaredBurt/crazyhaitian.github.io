@@ -1,14 +1,14 @@
 /*style sheet for crazy-haitian.html*/
 
-body{
-	background-image: url('https://images.unsplash.com/photo-1542181961-9590d0c79dab?ixlib=rb-1.2.1&dl=rr-abrot-pNIgH0y3upM-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb');
+body {
+	background-image: url('https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/cafe.jpeg?raw=true');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	text-align:right;
+	text-align: right;
 	padding-right: 200px;
 	padding-top: 150px;
-	}
+}
 	
 h1{
 	color:#FFA500;

@@ -23,9 +23,19 @@ h2{
 	font-size:40px;
 	text-align:center;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	
+}
+h3 {
+	color:;
+	font-family:;
+	line-height: 0px;
+	font-size:25px;
+	text-align:center;
+	padding-right:;
+	padding-bottom:;
 }
 
-h3{
+h4{
 	text-shadow:1px 1px #FFD700;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -66,4 +76,37 @@ input[type=submit]:hover {
 
 input[type=reset]:hover {
   background-color: #45a049;
+}
+
+nav ul li {
+	color: yellow;
+	font-family: Ariel;
+	font-size: 15px;
+	display: inline-block;
+	border: 2px solid #ff8c00;
+	border-radius: 5px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 15px;
+	
+	
+}
+
+nav ul li a {
+	color: yellow;
+}
+
+nav ul li a:hover {
+	color: red;
+}
+
+nav ul li a:visited {
+}
+
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-top:0px;
+	
 }

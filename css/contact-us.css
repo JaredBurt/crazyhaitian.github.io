@@ -23,6 +23,14 @@ h2{
 	font-size:30px;
 	text-align:center;
 }
+h3 {
+	color:;
+	font-family:;
+	line-height: 0px;
+	font-size:;
+	padding-right:;
+	padding-bottom:;
+}
 
 form{
 	display:inline-block;
@@ -34,4 +42,34 @@ input[type=submit]:hover {
 
 input[type=reset]:hover {
   background-color: #45a049;
+}
+
+nav ul li {
+	color: yellow;
+	font-family: Ariel;
+	font-size: 15px;
+	display: inline-block;
+	border: 2px solid #ff8c00;
+	border-radius: 5px;
+	padding: 5px;
+	list-style-type: none;
+	margin: 15px;
+}
+
+	nav ul li a {
+		color: yellow;
+	}
+
+		nav ul li a:hover {
+			color: red;
+		}
+
+		nav ul li a:visited {
+		}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 0px;
 }
