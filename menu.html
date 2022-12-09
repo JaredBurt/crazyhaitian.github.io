@@ -22,12 +22,17 @@
         </nav>
         <!--menu options-->
         <div class="btn-group">
-            <button>Appetizers</button>
+            <img id="image" src="#" alt="Appetizers:---"/>
+            <button onclick="script1()">Appetizers</button>
+            <script>
+                function script1() {
+                    document.getElementById('image').style.display = "block";
+                }
+            </script>
             <button>Drinks</button>
             <button>Main Courses</button>
             <button>Desserts</button>
         </div>
-
     </header>
     <!--  -->
     <main>

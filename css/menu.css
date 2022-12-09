@@ -1,7 +1,7 @@
 /*style sheet for crazy-haitian.html*/
 
 body {
-    background-image: url('https://halfhalftravel.imgix.net/mexico/mexico-city/quentin/DAN02337.jpg?w=1000&h=665&fit=max&auto=format&q=45');
+    background-image: url('https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/menu.jpg?raw=true');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -104,4 +104,8 @@ nav {
 .btn-group button:hover {
     background-color: #cc5500;
 
+}
+
+image{
+    display:none;
 }
