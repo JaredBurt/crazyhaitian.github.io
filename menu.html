@@ -28,7 +28,7 @@
         <div class="btn-group">
             <!--menu options-->
             <div>
-                <button onclick="myFunction()">Appetizers</button>
+                <button onclick="myFunction(1)">Appetizers</button>
                 <button onclick="">Drinks</button>
                 <button onclick="">Main Courses</button>
                 <button onclick="">Desserts</button>
@@ -36,17 +36,29 @@
 
             <script>
                 var myPix = new Array();
-                myPix[1] = "https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true"
-                myPix[2] = "";
-                myPix[3] = "";
-                myPix[4] = "";
+                var x = document.getElementById(myPix[i]);
+                myPix[0] = new image;
+                myPix[0].src = "https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true"
+                myPix[1] = new image;
+                myPix[1].src = "https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/drinks.jpg?raw=true";
+                myPix[2] = new image;
+                myPix[2].src = "https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/entres.jpg?raw=true";
+                myPix[3] = new image;
+                myPix[3].src = "https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/desserts.jpg?raw=true";
+                
             
                 function myFunction() {
-                    for (i = 0; i < myPix.length; i++) {
-                        myPix[i].style.display = "none";
-                    }
-                    myPix[1].style.display = "block";
-                    
+                    document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/drinks.jpg?raw=true").style.visibility = 'hidden'; 
+                    document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/entres.jpg?raw=true").style.visibility = 'hidden'; 
+                    document.getElementById(https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/desserts.jpg?raw=true).style.visibility = 'hidden';
+                    document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true").style.display - "block";
+                }
+
+                function myFunction2() {
+                    document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true").style.visibility = 'hidden';
+                    document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/entres.jpg?raw=true").style.visibility = 'hidden';
+                    document.getElementById(https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/desserts.jpg?raw=true).style.visibility = 'hidden';
+                    document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/drinks.jpg?raw=true").style.display - "block";
                 }
             </script>
 
