@@ -106,6 +106,7 @@ nav {
 
 }
 
-image{
+div img{
     display:none;
+    padding-left:35%;
 }

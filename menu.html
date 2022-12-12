@@ -5,6 +5,11 @@
     <meta charset="utf-8" />
     <title>Manu</title>
     <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <style>
+        #image{
+            display:none;
+        }
+    </style>
 </head>
 <body>
     <!-- Develop menu buttons with hover options-->
@@ -20,18 +25,56 @@
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
         </nav>
-        <!--menu options-->
         <div class="btn-group">
-            <img id="image" src="#" alt="Appetizers:---"/>
-            <button onclick="script1()">Appetizers</button>
+            <!--menu options-->
+            <button type="button" onclick="script1()" id="btnID">Appetizers</button>
+            <button type="button" onclick="script2()" id="btnID2">Drinks</button>
+            <button type="button" onclick="script3()" id="btnID3">Main Courses</button>
+            <button type="button" onclick="script4()" id="btnID4">Desserts</button>
+
+            <div>
+                <img id="image" src="https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true" alt="Appetizers:---" />
+            </div>
             <script>
                 function script1() {
                     document.getElementById('image').style.display = "block";
+
+                    document.getElementById('btnID').style.display = "none";
                 }
             </script>
-            <button>Drinks</button>
-            <button>Main Courses</button>
-            <button>Desserts</button>
+
+            <div>
+                <img id="image2" src="https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/drinks.jpg?raw=true" alt="Drinks:---" />
+            </div>
+            <script>
+                function script2() {
+                    document.getElementById('image2').style.display = "block";
+
+                    document.getElementById('btnID2').style.display = "none";
+                }
+            </script>
+
+            <div>
+                <img id="image3" src="https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/entres.jpg?raw=true" alt="Entres:---" />
+            </div>
+            <script>
+                function script3() {
+                    document.getElementById('image3').style.display = "block";
+
+                    document.getElementById('btnID3').style.display = "none";
+                }
+            </script>
+
+            <div>
+                <img id="image4" src="https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/desserts.jpg?raw=true" alt="Deserts:---" />
+            </div>
+            <script>
+                function script4() {
+                    document.getElementById('image4').style.display = "block";
+
+                    document.getElementById('btnID4').style.display = "none";
+                }
+            </script>
         </div>
     </header>
     <!--  -->
