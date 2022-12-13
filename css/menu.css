@@ -107,5 +107,6 @@ nav {
 }
 
 div img{
+    display:none;
     padding-left:35%;
 }
