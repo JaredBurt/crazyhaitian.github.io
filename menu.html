@@ -21,22 +21,23 @@
             </ul>
         </nav>
         <div class="btn-group">
-            <!--menu options-->
-            <div>
-                <button onclick="myFunction()">Appetizers</button>
-                <button onclick="myFunction2()">Drinks</button>
-                <button onclick="myFunction3()">Main Courses</button>
-                <button onclick="myFunction4()">Desserts</button>
-            </div>
+            <!--menu options-->     
+            <button onclick="myFunction()">Appetizers</button>
+            <button onclick="myFunction2()">Drinks</button>
+            <button onclick="myFunction3()">Main Courses</button>
+            <button onclick="myFunction4()">Desserts</button>
+        </div>
 
+            <div id="myDiv">
+                <img src="https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true" alt="Appetizers" />
+            </div>
          
             <script>
                 function myFunction() {
-                    var x = document.getElementById('https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true');
+                    var x = document.getElementById("myDIV");
                     if (x.style.display === "none") {
                         x.style.display = "block";
-                    }
-                    else {
+                    } else {
                         x.style.display = "none";
                     }
                 }
@@ -79,7 +80,7 @@
             </script>
 
 
-        </div>
+        
     </header>
     <!--  -->
     <main>
