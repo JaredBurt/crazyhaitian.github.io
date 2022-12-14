@@ -25,30 +25,28 @@
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
         </nav>
+
         <div class="btn-group">
             <!--menu options-->     
             <button onclick="myFunction()">Appetizers</button>
             <button onclick="myFunction2()">Drinks</button>
             <button onclick="myFunction3()">Main Courses</button>
             <button onclick="myFunction4()">Desserts</button>
-        </div>
-
-            <div id="myDIV">
-                <img src="https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true" alt="Appetizers" />
-            </div>
+        
+        
+            <img src="https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/appetizers.jpg?raw=true" id="image" alt="Appetizers" />
+            
          
             <script>
                 function myFunction() {
-                    var x = document.getElementById("myDIV");
+                    var x = document.getElementById('image');
                     if (x.style.display === "none") {
                         x.style.display = "block";
                     } else {
                         x.style.display = "none";
                     }
                 }
-            </script>
-
-            <script>
+            
                 function myFunction2() {
                     var x = document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/drinks.jpg?raw=true");
                     if (x.style.display === "none") {
@@ -58,9 +56,7 @@
                         x.style.display = "none";
                     }
                 }
-            </script>
-
-            <script>
+            
                 function myFunction3() {
                     var x = document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/entres.jpg?raw=true");
                     if (x.style.display === "none") {
@@ -70,9 +66,7 @@
                         x.style.display = "none";
                     }
                 }
-            </script>
-
-            <script>
+           
                 function myFunction4() {
                     var x = document.getElementById("https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/desserts.jpg?raw=true");
                     if (x.style.display === "none") {
@@ -83,7 +77,7 @@
                     }
                 }
             </script>
-
+            </div>
 
         
     </header>
