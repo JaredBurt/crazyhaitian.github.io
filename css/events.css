@@ -1,0 +1,111 @@
+body {
+    background-image: url('https://github.com/JaredBurt/crazyhaitian.github.io/blob/main/images/menu.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #FFA500;
+    font-family: Tahoma;
+    font-size: 80px;
+    line-height: 25px;
+    text-decoration: underline;
+    text-decoration-color: #FFA500;
+    text-align: center;
+}
+
+h2 {
+    color: #FFD700;
+    font-family: Courier New;
+    line-height: 0px;
+    font-size: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+
+
+
+banner {
+}
+
+
+main {
+    padding: 40px;
+}
+
+#welcome {
+    color: #ffff00;
+    font-family: Ariel;
+    font-size: 30px;
+    padding-top: 75px;
+    text-shadow: 1px 1px #ff0000;
+}
+
+.rotate {
+    font-size: 30px;
+    padding-right: 540px;
+    position: relative;
+    display: inline-block;
+    bottom: 80px;
+    transform: rotate(-30deg);
+}
+
+
+nav ul li {
+    color: yellow;
+    font-family: Ariel;
+    font-size: 15px;
+    display: inline-block;
+    border: 2px solid #ff8c00;
+    border-radius: 5px;
+    padding: 5px;
+    list-style-type: none;
+    margin: 15px;
+}
+
+    nav ul li a {
+        color: yellow;
+    }
+
+        nav ul li a:hover {
+            color: red;
+        }
+
+        nav ul li a:visited {
+        }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.btn-group button {
+    background-color: #ff8c00;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 10px;
+    width: 15%;
+    display: block;
+}
+
+    .btn-group button:not(:last-child) {
+        border-bottom: none;
+    }
+
+
+    .btn-group button:hover {
+        background-color: #cc5500;
+    }
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
